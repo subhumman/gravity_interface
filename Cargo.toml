@@ -3,4 +3,11 @@ name = "gravity_interface"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+members = [
+    "simulation_engine",
+    "gravity_visualizer"
+]
+resolver = "2"
+
 [dependencies]
